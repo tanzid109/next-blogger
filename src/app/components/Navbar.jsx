@@ -14,7 +14,7 @@ const Navbar = async () => {
                         <nav aria-label="Global">
                             <ul className="flex items-center gap-6 text-sm">
                                 <li>
-                                    <Link href={'/blog'} className="text-gray-500 text-2xl  transition hover:text-gray-500/75 font-bold"> Blog </Link>
+                                    <Link href={'/blog'} className="text-gray-500 text-2xl  transition hover:text-gray-500/75 font-bold"> Blogs </Link>
                                 </li>
                             </ul>
                         </nav>
