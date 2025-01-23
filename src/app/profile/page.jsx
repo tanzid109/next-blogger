@@ -8,9 +8,9 @@ const ProfilePage = async () => {
     return (
         <div className="flex flex-col justify-center items-center">
             <h2 className="font-bold text-2xl">Welcome to your profile</h2>
-            <a href="#" className="block rounded-lg p-4 shadow-sm shadow-indigo-100">
+            <a  className="block rounded-lg p-4 shadow-sm shadow-indigo-100">
                 <img
-                    alt=""
+                    alt={given_name}
                     src={picture}
                     className="h-56 w-full rounded-md object-cover"
                 />
